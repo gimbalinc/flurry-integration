@@ -14,8 +14,7 @@ You will need to enter your Gimbal API Key and Flurry API Key into the AppDelega
 
 To make integration easier we have created a helper class GimbalFlurryAdapter that exposes a simple method
 
-```
-#!objectc
+```objective-c
 + (instancetype) sharedInstanceWithGimbalAPIKey:(NSString *)gimbalAPIKey
                                    flurryAPIKey:(NSString *)flurryAPIKey;
 ```
@@ -33,8 +32,7 @@ The project is based on [hello-gimbal-ios](https://github.com/gimbalinc/hello-gi
 The code for GimbalFlurryAdapter shows how Place events are sent to Flurry.
 
 
-```
-#!objectc
+```objective-c
 
 #import "GimbalFlurryAdapter.h"
 #import "Flurry.h"
