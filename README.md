@@ -6,7 +6,7 @@ In this integration information regarding Place events are sent to Flurry. You c
 
 ## Setup ##
 
-Please refer to the [hello-gimbal-ios](https://github.com/gimbalinc/hello-gimbal-ios) for generic Gimbal setup and dependencies.
+Please refer to the [hello-gimbal-ios](https://github.com/gimbalinc/hello-gimbal-ios) sample application for generic Gimbal setup and dependencies.
 
 You will need to enter your Gimbal API Key and Flurry API Key into the AppDelegate.m file.
 
