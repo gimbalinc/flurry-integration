@@ -15,8 +15,8 @@ You will need to enter your Gimbal API Key and Flurry API Key into the AppDelega
 To make integration easier we have created a helper class GimbalFlurryAdapter that exposes a simple method
 
 ```objective-c
-+ (instancetype) sharedInstanceWithGimbalAPIKey:(NSString *)gimbalAPIKey
-                                   flurryAPIKey:(NSString *)flurryAPIKey;
+[GimbalFlurryAdapter sharedInstanceWithGimbalAPIKey:@"GIMBAL_API_KEY_HERE"
+                                    andFlurryAPIKey:@"FLURRY_API_KEY_HERE"];
 ```
 
 By invoking this method with the appropriate Gimbal and Flurry API keys both frameworks are initialized and place events are monitored and sent to Flurry.
